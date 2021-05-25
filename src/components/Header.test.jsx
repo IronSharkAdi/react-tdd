@@ -29,5 +29,5 @@ it("Should show filers" , () => {
     expect(getByTestId(container , "quests")).toBeTruthy();
     expect(getByTestId(container , "price")).toBeTruthy();
     expect(getByTestId(container , "rooms")).toBeTruthy();
-
+    expect(getByTestId(container , "amities")).toBeTruthy();
 })
