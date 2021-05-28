@@ -11,5 +11,7 @@ beforeEach(() =>{
 it("Should show homes" , () => {
     const homes =  getAllByTestId(container , 'homes');
     expect(homes.length).toBeGreaterThan(0)
+
+    
 })
 
